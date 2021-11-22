@@ -12,6 +12,7 @@ setwd("C:/Work/Teaching/KMG-060/KMG060-Systems-Biology-course/single-cell_code/d
 library(dplyr)
 library(Seurat)
 library(patchwork)
+library(Deseq2)
 
 # Load the PBMC dataset
 pbmc.data <- Read10X(data.dir = "filtered_gene_bc_matrices/hg19/")
